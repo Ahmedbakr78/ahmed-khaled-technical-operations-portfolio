@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { CheckCircle2, ArrowUp, MapPin, Github, BookOpen, Rocket } from 'lucide-react';
+import { CheckCircle2, ArrowUp, MapPin, BookOpen, Rocket } from 'lucide-react';
+import { GitHubIcon } from './BrandIcons';
 import { PERSONAL_INFO, REPOSITORY } from '../data/portfolioData';
 
 export const Footer: React.FC = () => {
@@ -91,7 +92,7 @@ export const Footer: React.FC = () => {
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 text-zinc-400 hover:text-white"
                 >
-                  <Github className="w-3 h-3" /> Source
+                  <GitHubIcon className="w-3 h-3" /> Source
                 </a>
                 <a
                   href="#docs"

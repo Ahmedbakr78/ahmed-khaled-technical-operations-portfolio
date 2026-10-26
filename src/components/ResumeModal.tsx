@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Printer, Download, MapPin, Mail, Linkedin, ExternalLink, CheckCircle2 } from 'lucide-react';
+import { X, Printer, Download, MapPin, Mail, ExternalLink, CheckCircle2 } from 'lucide-react';
 import { PERSONAL_INFO, EXPERIENCES, CERTIFICATIONS } from '../data/portfolioData';
 
 interface ResumeModalProps {

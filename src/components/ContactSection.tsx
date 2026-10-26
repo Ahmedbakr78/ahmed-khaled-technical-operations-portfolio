@@ -3,7 +3,6 @@ import { motion } from 'motion/react';
 import {
   Mail,
   MapPin,
-  Linkedin,
   Send,
   CheckCircle2,
   Copy,
@@ -11,6 +10,7 @@ import {
   Download
 } from 'lucide-react';
 import { PERSONAL_INFO } from '../data/portfolioData';
+import { LinkedInIcon } from './BrandIcons';
 import {
   sectionContainerVariants,
   sectionItemVariants,
@@ -162,7 +162,7 @@ END:VCARD`;
                   rel="noopener noreferrer"
                   className="p-3 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 text-white flex items-center gap-2 transition-colors"
                 >
-                  <Linkedin className="w-4 h-4 text-zinc-300" />
+                  <LinkedInIcon className="w-4 h-4 text-zinc-300" />
                   <span className="text-xs font-sans font-medium">LinkedIn</span>
                 </a>
 

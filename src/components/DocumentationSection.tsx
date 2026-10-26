@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
+import { GitHubIcon } from './BrandIcons';
 import {
   BookOpen,
   Workflow,
@@ -7,7 +8,6 @@ import {
   Layers,
   ShieldCheck,
   Lock,
-  Github,
   ExternalLink,
   Rocket,
   GitBranch,
@@ -125,7 +125,7 @@ export const DocumentationSection: React.FC = () => {
                 rel="noopener noreferrer"
                 className="px-4 py-2.5 rounded-full bg-white text-black font-bold text-xs flex items-center gap-2 hover:bg-zinc-200 transition-colors"
               >
-                <Github className="w-4 h-4" />
+                <GitHubIcon className="w-4 h-4" />
                 <span>View Source on GitHub</span>
                 <ArrowUpRight className="w-3.5 h-3.5" />
               </a>

@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'motion/react';
+import { LinkedInIcon } from './BrandIcons';
 import {
   MapPin,
-  Linkedin,
   Mail,
   Download,
   Activity,
@@ -263,7 +263,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                   aria-label="LinkedIn Profile"
                   title="LinkedIn Profile — Ahmed Khaled"
                 >
-                  <Linkedin className="w-3.5 h-3.5" />
+                  <LinkedInIcon className="w-3.5 h-3.5" />
                   <span>LinkedIn</span>
                 </a>
                 <a
