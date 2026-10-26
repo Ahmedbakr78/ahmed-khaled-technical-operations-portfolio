@@ -43,8 +43,8 @@
     "clean": "rm -rf dist server.js"
   },
   "dependencies": {
-    "lucide-react": "^0.546.0",
-    "motion": "^12.23.24",
+    "lucide-react": "^1.61.0",
+    "motion": "^14.6.0",
     "react": "^19.0.1",
     "react-dom": "^19.0.1",
     "three": "^0.186.1"
