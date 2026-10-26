@@ -1,0 +1,64 @@
+{
+  "name": "ahmed-khaled-technical-operations-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ahmed Khaled — Project Engineer | Technical Operations & Project Management. A privacy-first React 19 portfolio with a project lifecycle simulator, Three.js engine, 84-sound ambient studio and full engineering documentation.",
+  "author": "Ahmed Khaled",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "homepage": "https://ahmed-khaled-technical-operations-portfolio.pages.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmedbakr78/ahmed-khaled-technical-operations-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ahmedbakr78/ahmed-khaled-technical-operations-portfolio/issues"
+  },
+  "keywords": [
+    "portfolio",
+    "project-engineer",
+    "technical-operations",
+    "project-management",
+    "react",
+    "typescript",
+    "vite",
+    "tailwindcss",
+    "threejs",
+    "cloudflare-pages",
+    "privacy-first",
+    "web-audio-api"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/utils/portfolioLogic.test.ts",
+    "verify": "npm run lint && npm test && npm run build",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name ahmed-khaled-technical-operations-portfolio",
+    "clean": "rm -rf dist server.js"
+  },
+  "dependencies": {
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0"
+  }
+}

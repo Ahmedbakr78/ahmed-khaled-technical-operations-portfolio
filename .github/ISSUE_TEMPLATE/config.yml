@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security disclosure
+    url: https://github.com/Ahmedbakr78/ahmed-khaled-technical-operations-portfolio/security/policy
+    about: Report a vulnerability privately through the security policy.
+  - name: Live portfolio
+    url: https://ahmed-khaled-technical-operations-portfolio.pages.dev
+    about: Review the deployed application before opening a visual issue.

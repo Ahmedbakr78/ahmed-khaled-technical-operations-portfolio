@@ -1,0 +1,49 @@
+name: Bug report
+description: Report a reproducible defect in the portfolio application.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a defect. Please include enough detail to reproduce it without guessing.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "Browser, version, operating system, viewport"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Console output or screenshots
+      description: Paste errors or attach images. Remove any private information first.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks
+      options:
+        - label: I searched existing issues for duplicates.
+          required: true
+        - label: I reproduced the issue on the latest main branch.
+          required: true
